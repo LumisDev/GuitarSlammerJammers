@@ -36,6 +36,7 @@
 	<!-- _______________________________ Libraries ______________________________ -->
 
 	<haxelib name="flixel" />
+	<haxelib name="polymod" />
 
 	<!--In case you want to use the addons package-->
 	<!--<haxelib name="flixel-addons" />-->
@@ -84,7 +85,7 @@
 	<!-- Haxe 4.3.0+: Enable pretty syntax errors and stuff. -->
 	<!-- pretty (haxeflixel default), indent, classic (haxe compiler default) -->
 	<haxedef name="message.reporting" value="pretty" />
-
+	<haxedef name="POLYMOD_SCRIPT_EXT" value=".hscript" />
 	<!-- _________________________________ Custom _______________________________ -->
 
 	<!--Place custom nodes like icons here-->
